@@ -130,9 +130,8 @@ function Header() {
             {currentUser ? (
               <Image
                 className={cx("user-avatar")}
-                src="https://s.net.vn/vm6C"
-                alt="WanF"
-                fallback="https://fullstack.edu.vn/static/media/f8-icon.18cd71cfcfa33566a22b.png"
+                src={images.avatar}
+                alt="Hoang Pham"
               />
             ) : (
               <button className={cx("more-btn")}>

@@ -49,5 +49,6 @@
   },
   "devDependencies": {
     "sass": "^1.69.5"
-  }
+  },
+  "homepage": "https://hoangpham2263.github.io/tiktok-ui-clone"
 }

@@ -2,6 +2,10 @@
 
 A React practice project that recreates the TikTok web header, search experience and page layouts using reusable components and SCSS modules.
 
+**Live demo:** https://hoangpham2263.github.io/tiktok-ui-clone/
+
+> The public search API this clone was built against is no longer available, so the demo searches a small set of sample accounts instead. Set `REACT_APP_BASE_URL` to use a real API.
+
 ## Features
 
 - **Routing with per-route layouts** - React Router v6 routes for Home (`/`), Following, Profile (`/:nickname`), Upload and Search; each route can use the default layout (header + sidebar), a header-only layout, or no layout.
